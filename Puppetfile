@@ -22,5 +22,11 @@ forge "https://forgeapi.puppetlabs.com"
  mod 'testrepo',
    :git => 'https://github.com/debi1979/testrepo.git',
    :branch => 'master'
+
+ mod 'puppetlabs-apache','1.11.0'
+ mod 'puppetlabs-mysql', '3.10.0'
+ mod 'mayflower-php', '4.0.0-beta1'
+ mod 'puppetlabs-concat'
+
 # A module from Github pre-packaged tarball
 # mod 'puppetlabs-apache', '0.6.0', :github_tarball => 'puppetlabs/puppetlabs-apache'
